@@ -1,0 +1,224 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+body {
+    color: white;
+    background-color: #1A191D;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+
+}
+
+.list {
+    display: flex;
+    flex: row;
+    gap: 10vh;
+
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#init {
+    background-repeat: no-repeat;
+    background-image: url(desktop-wallpaper-portfolio-thumbnail.jpg);
+    background-size: 100vw 100vh;
+
+}
+
+.row-1 {
+    margin-top: 15vh;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.30);
+    font-family: Poppins;
+    font-size: 112px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 192px;
+    /* 100% */
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    width: 1280px;
+    padding: 22px 0px 0px 0px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content {
+    margin-top: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.content .column {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105px;
+    /* 140% */
+    letter-spacing: -1.5px;
+}
+
+.title {
+    width: 231.8px;
+    height: 62.38px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.2px;
+    /* 120% */
+    letter-spacing: -0.26px;
+
+}
+
+.col {
+    display: flex;
+    width: 301.8px;
+    margin-left: -8vh;
+    margin-top: -2vh;
+    padding: 5px 0px 13px 70px;
+    align-items: flex-start;
+
+}
+
+.text {
+    color: #FFF;
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    margin-top: 4vh;
+}
+
+.flex-left {
+    border-top: 3px solid #A3A3A3;
+    border-right: 1.5px solid #A3A3A3;
+    border-bottom: 3px solid #A3A3A3;
+    border-left: 3px solid #A3A3A3;
+    display: flex;
+    width: 366.3px;
+    padding: 43px 31.5px 65.39px 33px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+
+
+.content .column2 {
+    display: flex;
+    width: 1100px;
+    max-width: 1100px;
+   margin-top: 10vh;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.flex-rigth {
+    border-top: 3px solid #A3A3A3;
+    border-right: 1.5px solid #A3A3A3;
+    border-bottom: 3px solid #A3A3A3;
+    border-left: 3px solid #A3A3A3;
+    display: flex;
+    width: 366.3px;
+    padding: 43px 31.5px 65.39px 33px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.title2 {
+    width: 231.8px;
+    height: 62.38px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.2px;
+    /* 120% */
+    letter-spacing: -0.26px;
+
+}
+
+.col2 {
+    display: flex;
+    width: 301.8px;
+    margin-left: -8vh;
+    margin-top: -2vh;
+    padding: 5px 0px 13px 70px;
+    align-items: flex-start;
+}
+
+.text2 {
+
+    color: #FFF;
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    margin-top: 4vh;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: #1A191D;
+}
+
+footer #formasDeContato {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    width: calc(100% - 18.6vw);
+}
+
+footer #formasDeContato .links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer #formasDeContato .links svg {
+    height: 24px;
+    width: 24px;
+    color: white;
+}
+
+footer #formasDeContato .links p {
+    color: white;
+    font-size: 12px;
+}
