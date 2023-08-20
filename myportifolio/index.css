@@ -12,28 +12,31 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    
-  
+
+
 }
+
 nav {
     position: fixed;
     background-color: #1A191D;
     width: 80%;
     opacity: 78%;
 
-  
+
 }
 
 .menu {
-   
+
     display: flex;
     flex: row;
     gap: 10vh;
 }
-.menu li{
+
+.menu li {
     list-style: none;
 
 }
+
 .menu a {
     text-decoration: none;
     color: white;
@@ -291,14 +294,13 @@ nav {
 .card-1 {
     display: flex;
     flex-direction: column;
-
 }
 
 .image {
     display: flex;
 }
 
-.text-card{
+.text-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,18 +312,21 @@ nav {
     align-items: flex-start;
     gap: 5px;
 }
-.cards-tec{
+
+.cards-tec {
     margin-top: 10vh;
     display: grid;
     row-gap: 2vh;
     grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
 }
-.image-tec{
+
+.image-tec {
     display: flex;
     background-color: white;
     width: 248px;
 }
-.text-card-tec{
+
+.text-card-tec {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,6 +339,7 @@ nav {
     align-items: flex-start;
     gap: 5px;
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -368,3 +374,8 @@ footer #formasDeContato .links p {
     color: white;
     font-size: 12px;
 }
+
+/*Animações*/
+
+
+
