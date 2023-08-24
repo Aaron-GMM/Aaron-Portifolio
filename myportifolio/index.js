@@ -34,3 +34,21 @@ function frameLooper () {
 
 }
 frameLooper();
+
+
+const target = document.querySelectorAll('[data-anime]');
+
+function animeScroll() {
+    const windowHeight = window.innerHeight;
+
+    target.forEach(function (element){
+        if((element.getBoundingClientRect().top + 50) < windowHeight){
+            element.classList.add("animate");
+        }else{
+            element.classList.remove("animate")
+        }
+    });
+}
+
+window.addEventListener('scroll', animeScroll);
+window.addEventListener("load", animeScroll);
